@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encriptador</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <div class="titulo">
+        <h1>Código <b>Secreto</b></h1>
+      </div>
+    </div>
+  </header>  
+
+  <div class="imagen"></div>
+
+  <main class="main">
+    <section class="form-box">
+      <form action="" id="form-encriptar">
+        <input class="text-input" type="text" name="input-texto" id="inputtexto" placeholder="Ingrese el texto aqui">
+        <span id="mensaje-error"></span>
+        <h3 for="input-texto">Solo letras minúsculas, sin acento</h3>
+        <div class="botones1">
+          <input class="btn" type="submit" value="encriptar!" id="btn-encriptar">
+          <input class="btn" type="submit" value="desencriptar!" id="btn-desencriptar">
+        </div>
+      </form>
+    </section>
+  
+    <section class="msg box">
+      <input class="text-input" type="text" id="msg"></input>
+      <h2 id="">Mensaje encriptado</h2>
+      <div class="botones2">
+      <input class="btn" type="submit" value="copiar" id="btn-copy">
+      </div>
+    </section>
+  </main>
+  <footer id="footer">
+    <h4 id="footer-año"></h4>
+  </footer>
+  <script src="js/encriptar-mensaje.js"></script>
+  <script src="js/boton-copiar.js"></script>
+  <script src="js/desencriptar-mensaje.js"></script>
+  <script src="js/footer.js"></script>
+</body>
+</html>

@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+}
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+header{
+  position: static;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  background: #F3F5FC;
+  z-index: 2;
+}
+
+.header-content{
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+}
+
+.titulo{
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo h1 b{
+  color: #0c8cd3;
+}
+
+/*logo*/
+
+.imagen{
+  width: 100%;
+  height: 300px;
+  position: relative;
+  margin-top: 10px;
+  background-image: url(../img/encriptando.jpg);
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+body {
+  background-color: #F3F5FC;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 40px;
+}
+
+.main {
+  width: 1200px;
+  margin: auto;
+  margin-top: 40px;
+  display: flex;
+}
+
+.form-box{
+  width: 100%;
+  padding: 20px;
+  padding-bottom: 40px;
+  box-shadow: -10px 0 20px -30px rgba(0, 0, 0, 0.2);
+  border-radius:6px;  
+}
+
+#form-encriptar{
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+#form-encriptar .text-input{
+  width: 100%;
+  height: 50px;
+  border-radius: 6px;
+  border:none;
+  background-color: #F3F5FC;
+  padding: 15px;
+}
+
+#form-encriptar .text-input:placeholder-shown{
+  font-size: 16px;
+}
+
+#form-encriptar #mensaje-error{
+  font-size: 14px;
+  font-weight: 500;
+  color: red;
+}
+
+#form-encriptar h3{
+  margin-top: 50px;
+  font-size: 12px;
+  color: #495057;
+}
+
+#form-encriptar .botones1{
+  margin-top: 5px;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.botones1 #btn-encriptar{
+  width: 200px;
+  height: 50px;
+  border: 0;
+  color: white;
+  font-weight: normal;
+  font-size: 14px;
+  background-color: #0A3871;
+  border-radius: 24px;
+  cursor: pointer; 
+}
+
+.botones1 #btn-desencriptar {
+  width: 200px;
+  height: 50px;
+  margin: 0px 10px;
+  border: 1px solid #0A3871;
+  color: #0A3871;
+  font-weight: normal;
+  font-size: 14px;
+  background-color: #D8DFE8;
+  border-radius: 24px;
+  cursor: pointer;
+}
+
+.btn:hover{
+  opacity: 0.5;
+}
+
+.msg {
+  width: 700px;
+  padding: 20px;
+  padding-bottom: 40px;
+  margin: 0 10px 0 10px;
+  box-shadow: -10px 0px 20px -30px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  position: relative;
+  overflow: hidden;
+  background: white ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.msg #msg{
+  width: 100%;
+  height: 50px;
+  border-radius: 6px;
+  border: none;
+  display: block;
+  background-color: white;
+  padding: 15px;
+  
+}
+
+.msg h2{
+  margin-top: 5px;
+  padding: 0px 20px;
+  font-style: normal;
+  font-size: 14px;
+  color: #495057;  
+}
+
+.msg .botones2{
+  margin-top: 48px;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.msg #btn-copy {
+  width: 200px;
+  height: 50px;
+  border: 1px solid #0A3871;
+  color: #0A3871;
+  font-weight: normal;
+  font-size: 14px;
+  background-color: white;
+  border-radius: 24px;
+  cursor: pointer;
+}
+
+footer{
+  width: 100%;
+  bottom: 0;
+  margin-top: 20px;
+  position: absolute;
+  height: 40px;
+}
+
+footer h4{
+  text-align: center;
+  margin-top: 10px;
+  color:#0c8cd3;
+  font-weight: 500px;
+  font-size: 12px;
+}
